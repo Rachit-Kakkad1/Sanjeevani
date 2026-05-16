@@ -133,4 +133,4 @@ export default function Timeline() {
       </div>
     </motion.div>
   );
-}
+}// TODO: adjust timeline step spacing
