@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+﻿import { motion } from 'framer-motion';
 import { ShieldCheck, IndianRupee, ArrowRight, ExternalLink, Activity } from 'lucide-react';
 
 const containerVariants = {
