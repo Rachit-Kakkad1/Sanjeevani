@@ -41,6 +41,7 @@ function ConfettiPiece({ delay, side }) {
   );
 }
 
+// TODO: handle large files above 10MB
 export default function UploadPage({ 
   onNavigateToDashboard, 
   onNavigateToReports, 
