@@ -36,6 +36,7 @@ const itemVariants = {
   }
 };
 
+// TODO: fetch actual user stats instead of static data
 export default function Dashboard({ 
   onLogout, 
   onNavigateToUpload, 
