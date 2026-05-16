@@ -586,4 +586,4 @@ export default function LandingPage({ onNavigateToLogin }) {
       </footer>
     </div>
   );
-}
+}// TODO: split landing page into smaller sections
