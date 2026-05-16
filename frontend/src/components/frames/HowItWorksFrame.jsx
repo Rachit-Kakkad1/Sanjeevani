@@ -40,3 +40,4 @@ export const HowItWorksFrame = () => {
         </section>
     );
 };
+// TODO: ensure step diagrams are clear
