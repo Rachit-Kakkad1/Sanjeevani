@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+﻿import { motion } from 'framer-motion';
 import { Lightbulb, TrendingUp, AlertCircle } from 'lucide-react';
 
 export default function InsightsPanel({ schemes, income }) {
@@ -11,13 +11,13 @@ export default function InsightsPanel({ schemes, income }) {
   let insightType = 'neutral'; // positive, neutral, alert
 
   if (coverageRatio > 100) {
-    insightText = `Based on your income of ₹${income.toLocaleString('en-IN')}, the ${bestFit.name} scheme can cover more than 100% of an average medical emergency, practically eliminating your hospital bills.`;
+    insightText = `Based on your income of â‚¹${income.toLocaleString('en-IN')}, the ${bestFit.name} scheme can cover more than 100% of an average medical emergency, practically eliminating your hospital bills.`;
     insightType = 'positive';
   } else if (coverageRatio > 50) {
     insightText = `The ${bestFit.name} scheme covers a significant portion (up to ${Math.round(coverageRatio)}%) of your annual income equivalent in medical expenses, providing strong financial security.`;
     insightType = 'positive';
   } else {
-    insightText = `While your income restricts some state schemes, ${bestFit.name} still provides up to ₹${bestFit.coverageAmount.toLocaleString('en-IN')} in coverage to offset major medical costs.`;
+    insightText = `While your income restricts some state schemes, ${bestFit.name} still provides up to â‚¹${bestFit.coverageAmount.toLocaleString('en-IN')} in coverage to offset major medical costs.`;
     insightType = 'neutral';
   }
 
