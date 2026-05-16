@@ -54,3 +54,4 @@ export const TrustFrame = () => {
         </section>
     );
 };
+// TODO: add more trust badges
