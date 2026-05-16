@@ -645,3 +645,4 @@ export default function UploadBill({ onNavigateToDashboard }) {
     </motion.div>
   );
 }
+// TODO: show upload progress bar
