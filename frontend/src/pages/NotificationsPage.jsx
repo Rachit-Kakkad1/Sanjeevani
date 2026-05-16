@@ -19,6 +19,7 @@ const itemVariants = {
   }
 };
 
+// TODO: wire up push notifications
 export default function NotificationsPage({ 
   onLogout, 
   onNavigateToDashboard, 
