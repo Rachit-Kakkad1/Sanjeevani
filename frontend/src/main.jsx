@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+﻿import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
@@ -7,7 +7,7 @@ import { initGA } from './utils/analytics'
 import { GoogleOAuthProvider } from '@react-oauth/google'
 import { HelmetProvider } from 'react-helmet-async'
 
-// Initialize GA (Replace with your actual Measurement ID)
+// Initialize Google Analytics (Replace with your actual Measurement ID)
 initGA(import.meta.env.VITE_GA_ID || 'G-XXXXXXXXXX');
 
 const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
