@@ -102,4 +102,4 @@ export default function Insights({ insightsData = [], isLoading = false }) {
       </div>
     </motion.div>
   );
-}
+}// TODO: refine insight icons
