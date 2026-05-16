@@ -112,6 +112,7 @@ function AnimatedArea({ data, delay }) {
   );
 }
 
+// Component for rendering real-time billing analytics and trends
 export default function AnalyticsCharts({ bills = [], loading = false }) {
   const stats = useMemo(() => {
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
