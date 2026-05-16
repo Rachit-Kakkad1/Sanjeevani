@@ -57,3 +57,4 @@ export const HeroFrame = () => {
         </section>
     );
 };
+// TODO: optimize hero image loading
