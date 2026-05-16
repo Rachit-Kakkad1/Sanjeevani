@@ -24,3 +24,4 @@ export const EmotionalPainFrame = () => {
         </section>
     );
 };
+// TODO: subtle animation on text reveal
