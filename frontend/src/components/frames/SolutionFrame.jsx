@@ -29,3 +29,4 @@ export const SolutionFrame = () => {
         </section>
     );
 };
+// TODO: update solution graphic
