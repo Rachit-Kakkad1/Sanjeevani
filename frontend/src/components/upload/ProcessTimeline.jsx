@@ -8,6 +8,8 @@ const steps = [
   { id: 4, label: 'Done', icon: CheckCircle },
 ];
 
+// Component that visualizes the multi-step bill processing and analysis timeline
+// TODO: test timeline on smaller screens
 export default function ProcessTimeline({ currentStep = 1 }) {
   return (
     <motion.div
