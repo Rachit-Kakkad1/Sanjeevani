@@ -155,4 +155,4 @@ export default function BillComparison({ rawBillItems = [], structuredData = [],
       </div>
     </motion.div>
   );
-}
+}// TODO: handle missing bill data gracefully
