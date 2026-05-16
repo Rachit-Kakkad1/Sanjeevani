@@ -13,6 +13,7 @@ import {
   Lightbulb
 } from 'lucide-react';
 
+// Component that generates and displays AI-driven insights from the uploaded bills
 export default function InsightsPanel({ bills = [], loading = false }) {
   const insights = useMemo(() => {
     if (bills.length === 0) return [];
