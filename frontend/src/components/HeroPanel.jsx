@@ -78,4 +78,4 @@ const HeroPanel = ({ totalBill, expectedCost, overcharge, isLoading }) => {
   );
 };
 
-export default HeroPanel;
+export default HeroPanel;// TODO: improve responsiveness
