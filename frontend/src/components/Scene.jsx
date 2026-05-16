@@ -22,3 +22,4 @@ export const Scene = ({ containerRef }) => {
     </div>
   );
 };
+// TODO: load lower poly model if mobile
