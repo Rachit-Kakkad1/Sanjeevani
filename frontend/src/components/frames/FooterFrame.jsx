@@ -81,3 +81,4 @@ export const FooterFrame = () => {
         </footer>
     );
 };
+// TODO: add links to privacy policy
