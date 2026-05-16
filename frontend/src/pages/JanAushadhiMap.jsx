@@ -12,7 +12,8 @@ const pageVariants = {
   exit: { opacity: 0 }
 };
 
-export default function JanAushadhiMap({
+// TODO: handle geocoding fallback
+export default function JanAushadhiMapPage({
   onLogout, onNavigateToUpload, onNavigateToDashboard, onNavigateToReports,
   onNavigateToInsights, onNavigateToGovData, onNavigateToProfile,
   onNavigateToNotifications, onNavigateToCghsRates, currentPage
