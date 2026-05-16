@@ -16,6 +16,7 @@ const pulseVariants = {
   }
 };
 
+// TODO: handle drag enter states
 export default function UploadZone({ files, onFilesChange, uploadProgress, uploadComplete }) {
   const [isDragging, setIsDragging] = useState(false);
   const fileInputRef = useRef(null);
