@@ -7,6 +7,7 @@ import CghsTable from '../components/CghsTable';
 import { getCghsProcedures, getClassifications } from '../services/cghs.service';
 import { trackEvent } from '../utils/analytics';
 
+// TODO: tweak page transition variants
 const pageVariants = {
   initial: { opacity: 0 },
   animate: { 
