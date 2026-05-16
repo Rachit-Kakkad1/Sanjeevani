@@ -29,3 +29,4 @@ export const ResultFrame = () => {
         </section>
     );
 };
+// TODO: handle loading state inside frame
