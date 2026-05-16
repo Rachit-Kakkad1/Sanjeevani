@@ -196,4 +196,4 @@ const Navbar = ({
   );
 };
 
-export default Navbar;
+export default Navbar;// TODO: animate mobile menu
