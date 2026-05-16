@@ -9,6 +9,7 @@ import InsightsPanel from '../components/schemes/InsightsPanel';
 import axios from 'axios';
 import { API_BASE_URL } from '../utils/api';
 
+// TODO: animate page loading
 export default function GovSchemesPage({ 
   onLogout, 
   onNavigateToUpload, 
