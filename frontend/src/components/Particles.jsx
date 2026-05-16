@@ -48,3 +48,4 @@ export const Particles = ({ count = 1500 }) => {
     </points>
   );
 };
+// TODO: tweak particle density for performance
