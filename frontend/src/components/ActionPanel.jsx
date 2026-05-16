@@ -75,4 +75,4 @@ const ActionPanel = ({ onNavigateToUpload }) => {
   );
 };
 
-export default ActionPanel;
+export default ActionPanel;// TODO: refactor action buttons
