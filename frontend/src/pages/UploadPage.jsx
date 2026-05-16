@@ -48,6 +48,7 @@ function ConfettiPiece({ delay, side, isDark }) {
   );
 }
 
+// TODO: Add error boundary for upload flow
 export default function UploadPage({ 
   onNavigateToDashboard, 
   onNavigateToReports, 
