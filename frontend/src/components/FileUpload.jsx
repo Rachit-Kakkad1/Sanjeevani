@@ -116,3 +116,4 @@ const FileUpload = ({ onFileSelect }) => {
 };
 
 export default FileUpload;
+// TODO: improve drag drop styles
