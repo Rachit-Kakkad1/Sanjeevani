@@ -19,6 +19,7 @@ const itemVariants = {
   }
 };
 
+// TODO: sync user profile data with backend
 export default function ProfilePage({ 
   onLogout, 
   onNavigateToDashboard, 
