@@ -427,4 +427,4 @@ export default function Analytics({
       </div>
     </motion.div>
   );
-}
+}// TODO: review chart colors
