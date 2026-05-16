@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { FileText, Calendar, ChevronRight, Building2, Loader2, AlertCircle } from 'lucide-react';
 
+// Component to display a list of recently uploaded and analyzed bills
 export default function HistoryList({ onSelectBill, history = [], loading = false, error = null }) {
   const formatDate = (dateStr) => {
     try {
