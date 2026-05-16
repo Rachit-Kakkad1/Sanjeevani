@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import LandingPage from './components/LandingPage';
 import LoginPage from './components/LoginPage';
@@ -12,7 +12,7 @@ import NotificationsPage from './pages/NotificationsPage';
 import JanAushadhiMap from './pages/JanAushadhiMap';
 import CghsRatesPage from './pages/CghsRatesPage';
 
-function App() {
+function App() { // Main app component
   const [currentPage, setCurrentPage] = useState('landing');
 
   const handleLogout = () => {
