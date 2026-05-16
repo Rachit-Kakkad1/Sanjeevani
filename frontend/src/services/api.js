@@ -15,6 +15,7 @@ const apiClient = axios.create({
   },
 });
 
+// TODO: handle API timeouts
 export const uploadBill = async (file) => {
   const formData = new FormData();
   formData.append('file', file);
