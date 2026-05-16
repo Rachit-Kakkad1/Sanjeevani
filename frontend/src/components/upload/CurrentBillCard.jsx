@@ -27,6 +27,7 @@ function AnimatedNumber({ value, prefix = '', suffix = '', duration = 1500 }) {
   return <span>{prefix}{displayValue.toLocaleString()}{suffix}</span>;
 }
 
+// Component to display the summary and itemized details of the current medical bill
 export default function CurrentBillCard({ bill }) {
   const [showDetails, setShowDetails] = useState(false);
   
