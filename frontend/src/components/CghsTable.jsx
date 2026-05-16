@@ -73,3 +73,4 @@ const CghsTable = ({ data, loading }) => {
 };
 
 export default CghsTable;
+// TODO: add pagination
