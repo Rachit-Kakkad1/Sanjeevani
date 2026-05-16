@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
   Lightbulb, 
@@ -41,7 +41,7 @@ const floatAnimations = [
 const statsData = [
   { label: 'Total Bills Analyzed', value: '47', icon: FileText, color: '#8D7B68', bg: 'rgba(141, 123, 104, 0.15)' },
   { label: 'Overcharges Detected', value: '23', icon: AlertTriangle, color: '#ef4444', bg: 'rgba(239, 68, 68, 0.15)' },
-  { label: 'Total Saved', value: '₹24k', icon: PiggyBank, color: '#22c55e', bg: 'rgba(34, 197, 94, 0.15)' },
+  { label: 'Total Saved', value: 'â‚¹24k', icon: PiggyBank, color: '#22c55e', bg: 'rgba(34, 197, 94, 0.15)' },
   { label: 'Success Rate', value: '94%', icon: Target, color: '#2563eb', bg: 'rgba(37, 99, 235, 0.15)' },
 ];
 
@@ -50,11 +50,11 @@ const insightsData = [
     id: 1,
     type: 'savings',
     icon: PiggyBank,
-    title: 'You saved ₹12,400 this year',
-    description: 'Based on 47 bills analyzed, you\'ve avoided ₹12,400 in overcharges through our recommendations.',
+    title: 'You saved â‚¹12,400 this year',
+    description: 'Based on 47 bills analyzed, you\'ve avoided â‚¹12,400 in overcharges through our recommendations.',
     color: '#22c55e',
     bgColor: 'rgba(34, 197, 94, 0.1)',
-    stat: '₹12,400',
+    stat: 'â‚¹12,400',
     glow: 'shadow-[#22c55e]/20'
   },
   {
@@ -106,19 +106,19 @@ const insightsData = [
     type: 'tip',
     icon: Sparkles,
     title: 'Insurance claim tip',
-    description: 'You can claim ₹8,500 more by including previously rejected line items.',
+    description: 'You can claim â‚¹8,500 more by including previously rejected line items.',
     color: '#8b5cf6',
     bgColor: 'rgba(139, 92, 246, 0.1)',
-    stat: '₹8,500',
+    stat: 'â‚¹8,500',
     glow: 'shadow-[#8b5cf6]/20'
   }
 ];
 
 const recentActivity = [
-  { action: 'Bill analyzed', hospital: 'Apollo Hospital', amount: '₹45,800', status: 'completed', time: '2 hours ago' },
-  { action: 'Overcharge found', hospital: 'Fortis Healthcare', amount: '₹12,400', status: 'alert', time: '1 day ago' },
-  { action: 'Savings identified', hospital: 'Max Hospital', amount: '₹2,800', status: 'success', time: '3 days ago' },
-  { action: 'Report generated', hospital: 'Medanta', amount: '₹28,500', status: 'completed', time: '1 week ago' },
+  { action: 'Bill analyzed', hospital: 'Apollo Hospital', amount: 'â‚¹45,800', status: 'completed', time: '2 hours ago' },
+  { action: 'Overcharge found', hospital: 'Fortis Healthcare', amount: 'â‚¹12,400', status: 'alert', time: '1 day ago' },
+  { action: 'Savings identified', hospital: 'Max Hospital', amount: 'â‚¹2,800', status: 'success', time: '3 days ago' },
+  { action: 'Report generated', hospital: 'Medanta', amount: 'â‚¹28,500', status: 'completed', time: '1 week ago' },
 ];
 
 const savingsChart = [
@@ -174,9 +174,9 @@ function AnimatedBarChart({ data, color }) {
           axisLine={false} 
           tickLine={false} 
           tick={{ fill: '#8D7B68', fontSize: 12 }}
-          tickFormatter={(value) => `₹${value / 1000}k`}
+          tickFormatter={(value) => `â‚¹${value / 1000}k`}
         />
-        <Tooltip content={<CustomTooltip color={color} prefix="₹" />} />
+        <Tooltip content={<CustomTooltip color={color} prefix="â‚¹" />} />
         <Bar 
           dataKey="value" 
           fill={color}
