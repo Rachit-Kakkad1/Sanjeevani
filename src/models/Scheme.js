@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// TODO: add schema validation rules
 const schemeSchema = new mongoose.Schema({
   name: {
     type: String,
