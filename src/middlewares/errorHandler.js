@@ -1,5 +1,6 @@
 const logger = require('../utils/logger');
 
+// TODO: integrate Sentry for crash reporting
 const errorHandler = (err, req, res, next) => {
   logger.error(`${err.message} | ${req.method} ${req.originalUrl}`);
 
