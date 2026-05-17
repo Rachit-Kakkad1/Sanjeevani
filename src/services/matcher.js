@@ -54,6 +54,7 @@ const normalizeMedicalText = (text) => {
 /**
  * Initializes the Fuse.js index by fetching data from MongoDB
  */
+// TODO: load synonyms from db
 const initMatcher = async () => {
   try {
     logger.info('Initializing MedClear Matcher Engine...');
