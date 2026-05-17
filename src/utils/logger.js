@@ -1,5 +1,6 @@
 const winston = require('winston');
 
+// TODO: add file transport for production logs
 const logger = winston.createLogger({
   level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
   format: winston.format.combine(
