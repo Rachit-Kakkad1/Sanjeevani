@@ -1,3 +1,4 @@
+// TODO: protect create endpoint
 const express = require('express');
 const router = express.Router();
 const { getNearbyStores, createStore } = require('../controllers/store.controller');
