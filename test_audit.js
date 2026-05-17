@@ -4,6 +4,7 @@ const { initMatcher, findBestProcedureMatch } = require('./src/services/matcher'
 const { generateAuditReport } = require('./src/services/auditEngine');
 const connectDB = require('./src/config/db');
 
+// TODO: add edge cases to audit test suite
 async function test() {
   try {
     console.log('Connecting to database...');
