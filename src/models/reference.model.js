@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// TODO: review reference model indexes
 const ReferenceItemSchema = new mongoose.Schema({
   name: { type: String, required: true, index: true },
   normalizedName: { type: String, required: true, index: true },
