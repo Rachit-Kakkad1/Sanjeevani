@@ -6,6 +6,7 @@ const logger = require('../utils/logger');
  * @param {Array} items - [{ name: string, amount: number }]
  * @returns {Object} - Audit report
  */
+// TODO: refactor to use workers for large bills
 const generateAuditReport = async (items) => {
   logger.info(`[AUDIT_ENGINE] Starting audit for ${items.length} items...`);
   
