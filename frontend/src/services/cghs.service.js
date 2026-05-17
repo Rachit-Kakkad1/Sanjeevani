@@ -15,6 +15,7 @@ const apiClient = axios.create({
   },
 });
 
+// TODO: add response caching
 export const getCghsProcedures = async (params) => {
   try {
     const response = await apiClient.get('/cghs/procedures', { params });
