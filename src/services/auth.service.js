@@ -3,6 +3,7 @@ const jwt = require("jsonwebtoken");
 
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
+// TODO: implement token revocation check
 async function verifyGoogleToken(token) {
   try {
     const ticket = await client.verifyIdToken({
