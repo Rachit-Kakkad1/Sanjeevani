@@ -1,6 +1,7 @@
 const Scheme = require('../models/Scheme');
 const logger = require('../utils/logger');
 
+// TODO: tune impact score calculation
 exports.getSchemes = async (req, res, next) => {
   try {
     const income = parseFloat(req.query.income);
