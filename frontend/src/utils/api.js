@@ -9,6 +9,7 @@ const getBaseUrl = () => {
 const API_BASE_URL = getBaseUrl();
 export { API_BASE_URL };
 
+// TODO: implement retry logic for 5xx errors
 export const uploadBill = async (file) => {
   const formData = new FormData();
   formData.append('file', file);
