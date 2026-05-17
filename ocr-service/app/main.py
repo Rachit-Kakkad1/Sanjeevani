@@ -63,4 +63,5 @@ def health_check():
     }
 
 
+# TODO: add prometheus metrics endpoint
 app.include_router(ocr_router.router, prefix="/ocr", tags=["OCR"])
