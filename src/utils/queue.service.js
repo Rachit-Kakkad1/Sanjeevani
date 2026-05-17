@@ -1,6 +1,7 @@
 const EventEmitter = require('events');
 const logger = require('./logger');
 
+// TODO: implement dead letter queue
 class AsyncQueue extends EventEmitter {
   constructor(concurrency = 2) {
     super();
