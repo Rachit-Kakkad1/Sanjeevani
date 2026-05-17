@@ -29,7 +29,7 @@ SHARPEN_KERNEL = np.array([
 ], dtype=np.float32)
 
 
-def resize_image(image: np.ndarray) -> np.ndarray:
+def resize_image(image: np.ndarray) -> np.ndarray: # TODO: add aspect ratio preservation check
     """
     Smart resize: scale to a reasonable width for OCR accuracy vs performance.
     - Too large (phone photos 4000px): wastes memory, slow
