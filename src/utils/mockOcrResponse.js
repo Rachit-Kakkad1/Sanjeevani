@@ -1,3 +1,4 @@
+// TODO: add randomized realistic variations
 module.exports = function mockOcrResponse() {
   return {
     success: true,
