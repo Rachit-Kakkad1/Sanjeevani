@@ -10,6 +10,7 @@ const storage = multer.diskStorage({
   }
 });
 
+// TODO: migrate from disk storage to S3 streams
 const upload = multer({
   storage,
   limits: { fileSize: 10 * 1024 * 1024 },
