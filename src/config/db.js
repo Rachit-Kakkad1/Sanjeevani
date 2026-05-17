@@ -4,6 +4,7 @@ const logger = require('../utils/logger');
 const MAX_RETRIES = 5;
 const INITIAL_RETRY_MS = 2000;
 
+// TODO: tune max retries for production
 const connectDB = async (retryCount = 0) => {
   try {
     // Ensure the URI includes a database name
