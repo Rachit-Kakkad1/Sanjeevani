@@ -3,6 +3,7 @@ const Bill = require('../models/bill.model');
 const { findBestMatch } = require('../utils/matcher');
 const logger = require('../utils/logger');
 
+// TODO: add concurrency for item auditing
 async function computeAudit(billId, ocrData) {
   const items = ocrData.items || [];
   
