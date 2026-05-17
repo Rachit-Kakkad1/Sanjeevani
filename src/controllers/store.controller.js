@@ -6,6 +6,7 @@ const logger = require('../utils/logger');
  * @route   GET /api/v1/stores/nearby
  * @access  Public
  */
+// TODO: add filters for store rating
 exports.getNearbyStores = async (req, res, next) => {
   try {
     const { lat, lng, maxDistance = 10000 } = req.query; // maxDistance in meters (default 10km)
