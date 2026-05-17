@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// TODO: adjust cache expiration time
 const FileCacheSchema = new mongoose.Schema({
   fileHash: { type: String, required: true, unique: true, index: true },
   ocrData: { type: mongoose.Schema.Types.Mixed, required: true },
