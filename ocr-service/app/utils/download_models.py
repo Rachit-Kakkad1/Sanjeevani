@@ -1,7 +1,7 @@
 import easyocr
 import os
 
-def download():
+def download(): # TODO: add support for local model paths
     print("Pre-downloading EasyOCR models...")
     # This will download the detecting and recognizing models
     reader = easyocr.Reader(['en'], gpu=False)
