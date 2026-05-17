@@ -223,6 +223,7 @@ def extract_with_tesseract(image: np.ndarray) -> list[dict] | None:
 
 # ─── Layout Parsing ───────────────────────────────────────────────────────
 
+# TODO: improve layout detection for skewed images
 def cluster_into_rows(boxes: list[dict], y_tolerance: int = 35) -> list[list[dict]]:
     """
     Group bounding boxes into rows using Y-coordinate clustering.
