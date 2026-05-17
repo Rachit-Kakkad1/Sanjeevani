@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// TODO: handle geospatial querying precision
 const storeSchema = new mongoose.Schema({
   name: {
     type: String,
