@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// TODO: optimize text search indexes
 const cghsProcedureSchema = new mongoose.Schema({
   source: { type: String, default: 'CGHS' },
   serialNumber: Number,
