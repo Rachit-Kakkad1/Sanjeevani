@@ -19,6 +19,7 @@ let mapSdkPromise = null;
 /**
  * Load the main Mappls Map SDK (only once).
  */
+// TODO: add timeout for SDK loading
 export function loadMapplsMapSDK() {
   if (mapSdkPromise) return mapSdkPromise;
 
