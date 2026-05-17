@@ -47,6 +47,7 @@ function checkAliasMatch(rawName, aliases) {
   return 0;
 }
 
+// TODO: optimize regex pattern generation
 async function findBestMatch(rawName) {
   const normName = normalizeText(rawName);
   if (!normName) return { match: null, method: 'NONE', score: 0 };
