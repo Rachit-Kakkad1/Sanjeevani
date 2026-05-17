@@ -1,5 +1,6 @@
 const cghsService = require('../services/cghs.service');
 
+// TODO: implement caching for cghs procedures
 exports.getProcedures = async (req, res, next) => {
   try {
     const { search, classification, page, limit } = req.query;
