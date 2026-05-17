@@ -1,6 +1,7 @@
 /**
  * Google Analytics utility
  */
+// TODO: add fallback if GA is blocked
 export const initGA = (measurementId) => {
   if (!measurementId) return;
 
