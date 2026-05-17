@@ -4,6 +4,7 @@ const logger = require('../utils/logger');
 /**
  * Handles the POST /api/audit request
  */
+// TODO: add validation schema middleware
 const runAudit = async (req, res) => {
   try {
     const { items } = req.body;
