@@ -1,4 +1,5 @@
 # -------- Base Image --------
+# TODO: switch to multi-stage build for smaller image
 FROM python:3.10-slim
 
 # -------- Environment --------
