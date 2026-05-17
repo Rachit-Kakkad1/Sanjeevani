@@ -13,6 +13,7 @@ const BillItemSchema = new mongoose.Schema({
   matchConfidence: { type: Number, default: 0 }
 });
 
+// TODO: add indexes for querying
 const BillSchema = new mongoose.Schema({
   jobId: {
     type: String,
