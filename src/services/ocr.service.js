@@ -54,6 +54,7 @@ async function callOCRService(filePath, filename, retryCount = 0) {
   }
 }
 
+// TODO: validate OCR output schema
 async function processOCR(filePath, filename) {
   logger.info(`[OCR] Sending file: ${filename}`);
   const result = await callOCRService(filePath, filename);
