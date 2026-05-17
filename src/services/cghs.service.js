@@ -3,6 +3,7 @@ const CGHSProcedure = require('../models/cghs_procedure.model');
 /**
  * Fetch CGHS procedures with search, filter, and pagination
  */
+// TODO: add redis caching
 exports.getProcedures = async (options) => {
   const { search, classification, page = 1, limit = 20 } = options;
   
