@@ -3,6 +3,7 @@ import { UPLOAD_CONFIG } from '../constants/uploadConfig';
 /**
  * Enhanced file validation utility
  */
+// TODO: integrate with virus scanner hook
 export const validateFile = (file) => {
   if (!file) {
     return { valid: false, error: UPLOAD_CONFIG.ERROR_MESSAGES.NO_FILE };
