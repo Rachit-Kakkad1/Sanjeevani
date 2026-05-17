@@ -10,6 +10,7 @@ ALLOWED_TYPES = {'image/jpeg', 'image/png', 'image/webp', 'application/pdf'}
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
 
 
+# TODO: add request tracing for better debugging
 @router.post("/extract")
 async def extract_bill_data(file: UploadFile = File(...)):
     """
