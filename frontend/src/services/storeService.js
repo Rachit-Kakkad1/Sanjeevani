@@ -15,6 +15,7 @@ const API_URL = getBaseUrl();
  * @param {number} maxDistance - Maximum distance in meters (default 10000)
  * @returns {Promise} - Axios promise
  */
+// TODO: add offline caching for stores
 export const fetchNearbyStores = async (lat, lng, maxDistance = 10000) => {
   try {
     const response = await axios.get(`${API_URL}/stores/nearby`, {
