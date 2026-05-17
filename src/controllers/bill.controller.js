@@ -32,6 +32,7 @@ function cleanupFile(filePath) {
   try { fs.unlinkSync(filePath); } catch (e) { /* already cleaned */ }
 }
 
+// TODO: enhance upload error handling
 exports.uploadBill = async (req, res, next) => {
   const startTime = performance.now();
   try {
