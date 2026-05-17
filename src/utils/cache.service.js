@@ -13,6 +13,7 @@ exports.getFileHash = (filePath) => {
   });
 };
 
+// TODO: switch to redis for prod
 exports.getCachedOCR = async (hash) => {
   try {
     const cached = await FileCache.findOne({ fileHash: hash }).lean();
