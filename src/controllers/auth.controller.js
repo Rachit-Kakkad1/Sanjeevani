@@ -1,5 +1,6 @@
 const { verifyGoogleToken, generateJWT } = require('../services/auth.service');
 
+// TODO: add rate limiting for auth
 const googleAuth = async (req, res, next) => {
   try {
     const { token } = req.body;
