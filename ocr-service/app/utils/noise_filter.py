@@ -99,7 +99,7 @@ QTY_CONTEXT_KEYWORDS = [
 ]
 
 
-def is_noise_text(text: str) -> bool:
+def is_noise_text(text: str) -> bool: # TODO: add support for regional language noise
     """
     Returns True if the text is a noise pattern that should NOT be
     used for price/item extraction.
