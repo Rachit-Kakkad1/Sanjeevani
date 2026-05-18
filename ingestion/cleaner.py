@@ -37,7 +37,8 @@ class DataCleaner:
                 
                 # Validation
                 if not self._validate_record(r):
-                    self.stats["rejected"] += 1
+                    # TODO: log details of rejected records for debugging
+self.stats["rejected"] += 1
                     continue
 
                 # Deduplication using code + canonicalName
