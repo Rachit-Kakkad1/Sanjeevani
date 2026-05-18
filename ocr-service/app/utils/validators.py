@@ -21,7 +21,7 @@ SUM_TOLERANCE = 0.15             # 15% tolerance (medical bills have taxes/disco
 MIN_CONFIDENCE_THRESHOLD = 0.25  # Below this, mark the result as unreliable
 
 
-def validate_item_price(price: float) -> bool:
+def validate_item_price(price: float) -> bool: # TODO: load thresholds from config
     """
     Returns True if the price is within a credible range for
     a single bill line item.
