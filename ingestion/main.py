@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("MedClear-Ingestion")
 
-def run_pipeline(pdf_path=None):
+def run_pipeline(pdf_path=None): # TODO: add command line flags for output directory
     logger.info("🚀 Starting Production-Grade MedClear Ingestion Pipeline")
     
     if not pdf_path:
