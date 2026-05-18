@@ -1,4 +1,5 @@
 # MedClear PDF Ingestion Pipeline
+# TODO: add architectural diagram
 
 This module provides a production-ready system for extracting structured healthcare pricing data from PDF files (CGHS, NPPA, PMJAY, etc.) and converting them into normalized JSON format for the MedClear audit engine.
 
