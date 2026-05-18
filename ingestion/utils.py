@@ -16,7 +16,7 @@ MEDICAL_ABBREVIATIONS = {
     "icu": ["intensive care unit"]
 }
 
-def normalize_text(text):
+def normalize_text(text): # TODO: add more medical abbreviations
     """
     Standardizes text by removing special characters, 
     collapsing whitespace, and stripping.
