@@ -5,7 +5,7 @@ const connectDB = require('./src/config/db');
 const { initMatcher } = require('./src/services/matcher');
 const logger = require('./src/utils/logger');
 
-// TODO: investigate adding clustering for scaling
+// TODO: investigate adding clustering for scaling (priority for next sprint)
 const server = http.createServer(app);
 const PORT = process.env.PORT || 5000;
 
