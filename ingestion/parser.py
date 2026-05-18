@@ -6,6 +6,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+# TODO: add support for encrypted PDFs
 class PDFParser:
     def __init__(self, file_path):
         self.file_path = file_path
