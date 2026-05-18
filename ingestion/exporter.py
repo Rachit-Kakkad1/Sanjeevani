@@ -5,6 +5,7 @@ import pandas as pd
 
 logger = logging.getLogger(__name__)
 
+# TODO: add database direct export
 class DataExporter:
     def __init__(self, output_dir):
         self.output_dir = output_dir
