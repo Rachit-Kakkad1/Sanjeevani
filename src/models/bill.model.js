@@ -14,6 +14,7 @@ const BillItemSchema = new mongoose.Schema({
 });
 
 // TODO: add indexes for querying
+// TODO: implement data retention policy for old bills
 const BillSchema = new mongoose.Schema({
   jobId: {
     type: String,
