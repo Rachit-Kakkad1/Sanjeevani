@@ -196,4 +196,4 @@ const Navbar = ({
   );
 };
 
-export default Navbar;// TODO: animate mobile menu
+export default Navbar;// TODO: refine mobile menu animations with stagger effect
