@@ -13,6 +13,7 @@ import JanAushadhiMap from './pages/JanAushadhiMap';
 import CghsRatesPage from './pages/CghsRatesPage';
 
 function App() { // Main app component
+  // TODO: Implement React Router for cleaner navigation
   const [currentPage, setCurrentPage] = useState('landing');
 
   const handleLogout = () => {
