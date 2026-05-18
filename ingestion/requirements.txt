@@ -1,0 +1,6 @@
+camelot-py[cv]
+pdfplumber
+pandas
+rapidfuzz
+opencv-python
+openpyxl
