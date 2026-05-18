@@ -1,6 +1,6 @@
 from ingestion.utils import clean_tokens
 
-def prepare_for_matching(record):
+def prepare_for_matching(record): # TODO: add token weights
     """
     Adds match preparation metadata to a record for the audit engine.
     """
