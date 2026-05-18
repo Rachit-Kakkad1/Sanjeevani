@@ -11,6 +11,7 @@ INVALID_CLASSIFICATION_KEYWORDS = {
     'session', 'example', 'theatre', 'operation', 'percentage', 'charges', 'hospital'
 }
 
+# TODO: add support for excel source files
 class DataCleaner:
     def __init__(self, source_file="unknown", source_version="1.0"):
         self.source_file = source_file
