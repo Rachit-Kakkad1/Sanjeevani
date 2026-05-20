@@ -57,7 +57,7 @@ const normalizeMedicalText = (text) => {
 // TODO: load synonyms from db
 const initMatcher = async () => {
   try {
-    logger.info('Initializing MedClear Matcher Engine...');
+    logger.info('Initializing Sanjeevani Matcher Engine...');
     const procedures = await CGHSProcedure.find({}).lean();
     
     // Flatten pricing for easier access if needed, 
@@ -132,9 +132,9 @@ const findBestProcedureMatch = async (extractedText) => {
     matchedProcedure: {
       code: matchedProc.code,
       canonicalName: matchedProc.canonicalName,
-      nonNABH: matchedProc.pricing?.tier1?.nonNABH || 0,
-      NABH: matchedProc.pricing?.tier1?.NABH || 0,
-      superSpeciality: matchedProc.pricing?.tier1?.superSpeciality || 0,
+      nonNABH: matchedProc.nonNABH || matchedProc.pricing?.tier1?.nonNABH || 0,
+      NABH: matchedProc.NABH || matchedProc.pricing?.tier1?.NABH || 0,
+      superSpeciality: matchedProc.superSpeciality || matchedProc.pricing?.tier1?.superSpeciality || 0,
       classification: matchedProc.classification
     }
   };

@@ -2,6 +2,7 @@ const Levenshtein = require('fast-levenshtein');
 const ReferenceItem = require('../models/reference.model');
 
 function normalizeText(text) {
+  if (!text) return '';
   return text.toLowerCase().replace(/[^a-z0-9\s]/g, '').trim();
 }
 
@@ -62,7 +63,10 @@ async function findBestMatch(rawName) {
   if (candidates.length === 0) {
     const regexPattern = normName.split(/\s+/).map(w => `(?=.*${w})`).join('');
     candidates = await ReferenceItem.find({
-      normalizedName: { $regex: regexPattern, $options: 'i' }
+      $or: [
+        { normalizedName: { $regex: regexPattern, $options: 'i' } },
+        { name: { $regex: regexPattern, $options: 'i' } }
+      ]
     }).limit(30).lean();
   }
 
@@ -75,7 +79,7 @@ async function findBestMatch(rawName) {
   let bestMethod = 'NONE';
 
   for (const doc of candidates) {
-    const nameScore = calculateConfidence(normName, doc.normalizedName);
+    const nameScore = calculateConfidence(normName, doc.normalizedName || doc.name);
     const aliasScore = checkAliasMatch(normName, doc.aliases);
     const confidence = Math.max(nameScore, aliasScore);
 

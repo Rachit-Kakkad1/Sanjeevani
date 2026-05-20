@@ -8,9 +8,12 @@ const BillItemSchema = new mongoose.Schema({
   totalPrice: { type: Number, required: true },
   isOvercharged: { type: Boolean, default: false },
   overchargeAmount: { type: Number, default: 0 },
-  matchMethod: { type: String, enum: ['TEXT_SEARCH', 'REGEX', 'LEVENSHTEIN', 'JACCARD', 'ALIAS', 'NONE'], default: 'NONE' },
+  matchMethod: { type: String, enum: ['TEXT_SEARCH', 'REGEX', 'LEVENSHTEIN', 'JACCARD', 'ALIAS', 'CGHS_FUSE', 'NONE'], default: 'NONE' },
   ocrConfidence: { type: Number, default: 0 },
-  matchConfidence: { type: Number, default: 0 }
+  matchConfidence: { type: Number, default: 0 },
+  isUnverified: { type: Boolean, default: false },
+  referencePrice: { type: Number },
+  referenceSource: { type: String, enum: ['REFERENCE', 'CGHS', null], default: null }
 });
 
 // TODO: add indexes for querying
