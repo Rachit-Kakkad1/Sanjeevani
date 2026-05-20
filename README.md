@@ -514,7 +514,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 Built with ❤️ by **Team Sanjeevani** for ALGOfest 2026.
 
-See [TEAM.md](TEAM.md) for detailed team information and credits.
+| | Name | Role | Focus Areas |
+|:---:|:---|:---|:---|
+| ⚡ | **Rachit Kakkad** | Full-Stack Lead & Presenter | Backend Architecture · MongoDB · OCR Integration · Frontend · DevOps |
+| 🎯 | **Suba Aishwarya** | Strategy & Pitch Lead | Pitch Deck · Product Strategy · ALGOfest Alignment · User Stories · Feature Prioritization |
+
+See [TEAM.md](TEAM.md) for detailed team profiles, our build journey, and acknowledgments.
 
 ---
 
