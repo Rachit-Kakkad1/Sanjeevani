@@ -16,4 +16,6 @@ test_results.txt
 raw_ocr_output.json
 verify_pipeline.py
 sample-bill.png
-*.md
+demo-medical-bill.png
+demo-medical-bill.html
+screenshot.js

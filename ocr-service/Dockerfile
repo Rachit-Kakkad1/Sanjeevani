@@ -1,11 +1,12 @@
 # -------- Base Image --------
-# TODO: switch to multi-stage build for smaller image
 FROM python:3.10-slim
 
 # -------- Environment --------
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
-    OMP_THREAD_LIMIT=1
+    OMP_THREAD_LIMIT=1 \
+    HF_HOME=/tmp/hf_cache \
+    EASYOCR_MODULE_PATH=/tmp/.EasyOCR
 
 # -------- Working Directory --------
 WORKDIR /app
@@ -28,12 +29,12 @@ RUN pip install --upgrade pip && \
 # -------- Copy App --------
 COPY . .
 
-# -------- Create Non-root User (security) --------
-RUN useradd -m appuser
-USER appuser
+# -------- Writable directories for HF Spaces --------
+RUN mkdir -p /tmp/hf_cache /tmp/.EasyOCR /tmp/uploads && \
+    chmod -R 777 /tmp/hf_cache /tmp/.EasyOCR /tmp/uploads
 
-# -------- Expose Port --------
-EXPOSE 8000
+# -------- Expose Port (HF Spaces uses 7860) --------
+EXPOSE 7860
 
 # -------- Run Server --------
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860"]
