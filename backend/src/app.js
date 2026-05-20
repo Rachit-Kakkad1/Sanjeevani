@@ -14,10 +14,18 @@ app.use(helmet());
 app.use(compression());
 
 // Production CORS configuration
+const allowedOrigins = [
+  process.env.FRONTEND_URL,
+  'https://sanjeevani-healthcare.vercel.app',
+  'http://localhost:5173',
+  'http://localhost:3000'
+].filter(Boolean);
+
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
-    ? process.env.FRONTEND_URL 
+    ? allowedOrigins
     : '*',
+  credentials: true,
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
