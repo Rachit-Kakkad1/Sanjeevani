@@ -2,10 +2,18 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-.DS_Store
 dist/
 .cache/
 coverage/
+package-lock.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+
 # Common
 .DS_Store
 Thumbs.db
@@ -17,6 +25,7 @@ Thumbs.db
 
 # IDE and editor generated files
 .idea/
+.vscode/
 *.sublime-*
 
 # Local environment files
