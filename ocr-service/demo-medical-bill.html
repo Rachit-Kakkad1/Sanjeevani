@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invoice - Sunrise Multi-Speciality Hospital</title>
+<style>
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 13px;
+    line-height: 1.45;
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 18mm 16mm 14mm 16mm;
+  }
+
+  /* ---- header ---- */
+  .hospital-header {
+    text-align: center;
+    border-bottom: 3px double #1a1a1a;
+    padding-bottom: 12px;
+    margin-bottom: 6px;
+  }
+  .hospital-name {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 2px;
+  }
+  .hospital-tagline {
+    font-size: 11px;
+    color: #444;
+    margin-bottom: 4px;
+  }
+  .hospital-address {
+    font-size: 12px;
+    color: #333;
+  }
+  .hospital-phone {
+    font-size: 12px;
+    color: #333;
+  }
+  .hospital-reg {
+    font-size: 10px;
+    color: #666;
+    margin-top: 2px;
+  }
+
+  /* ---- title bar ---- */
+  .invoice-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 14px 0 10px 0;
+    padding: 5px 0;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+  }
+
+  /* ---- patient / bill meta ---- */
+  .meta-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+    font-size: 12.5px;
+  }
+  .meta-table td {
+    padding: 3px 4px;
+    vertical-align: top;
+  }
+  .meta-label {
+    font-weight: bold;
+    width: 130px;
+    color: #333;
+  }
+  .meta-value {
+    color: #1a1a1a;
+  }
+
+  /* ---- items table ---- */
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  .items-table th {
+    background: #f0f0f0;
+    border: 1px solid #999;
+    padding: 7px 8px;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #1a1a1a;
+  }
+  .items-table td {
+    border: 1px solid #999;
+    padding: 6px 8px;
+    font-size: 12.5px;
+    color: #1a1a1a;
+  }
+  .items-table td.num {
+    text-align: center;
+  }
+  .items-table td.amt {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .items-table td.desc {
+    text-align: left;
+  }
+
+  /* ---- totals ---- */
+  .total-row td {
+    font-weight: bold;
+    font-size: 13.5px;
+    background: #f7f7f7;
+  }
+  .grand-total-row td {
+    font-weight: bold;
+    font-size: 14.5px;
+    background: #e8e8e8;
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+  }
+
+  /* ---- footer section ---- */
+  .amount-words {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
+  }
+  .amount-words span {
+    font-weight: bold;
+  }
+
+  .footer-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 12px;
+  }
+  .footer-left {
+    max-width: 55%;
+  }
+  .footer-right {
+    text-align: center;
+  }
+  .signature-line {
+    width: 180px;
+    border-top: 1px solid #555;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .payment-note {
+    margin-top: 18px;
+    padding: 6px 8px;
+    border: 1px solid #bbb;
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+  }
+  .divider-thin {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 8px 0;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HOSPITAL HEADER ============ -->
+<div class="hospital-header">
+  <div class="hospital-name">Sunrise Multi-Speciality Hospital</div>
+  <div class="hospital-tagline">Excellence in Healthcare Since 1998</div>
+  <div class="hospital-address">Plot 42, Sector 15, Dwarka, New Delhi - 110075</div>
+  <div class="hospital-phone">Phone: +91 11 2547 8900 &nbsp;|&nbsp; Email: billing@sunrisehospital.in</div>
+  <div class="hospital-reg">CIN: U85110DL1998PTC093456 &nbsp;&bull;&nbsp; NABH Accredited &nbsp;&bull;&nbsp; GSTIN: 07AABCS1234F1Z5</div>
+</div>
+
+<!-- ============ INVOICE TITLE ============ -->
+<div class="invoice-title">Patient Invoice / Bill</div>
+
+<!-- ============ PATIENT &amp; BILL INFO ============ -->
+<table class="meta-table">
+  <tr>
+    <td class="meta-label">Patient Name:</td>
+    <td class="meta-value">Rajesh Kumar Sharma</td>
+    <td class="meta-label">Bill No:</td>
+    <td class="meta-value">INV/2026/05-1847</td>
+  </tr>
+  <tr>
+    <td class="meta-label">Patient ID:</td>
+    <td class="meta-value">SH-2026-04521</td>
+    <td class="meta-label">Bill Date:</td>
+    <td class="meta-value">18 May 2026</td>
+  </tr>
+  <tr>
+    <td class="meta-label">Referring Doctor:</td>
+    <td class="meta-value">Dr. Ananya Mehta</td>
+    <td class="meta-label">Department:</td>
+    <td class="meta-value">Cardiology</td>
+  </tr>
+  <tr>
+    <td class="meta-label">Payment Mode:</td>
+    <td class="meta-value">Cash / Card</td>
+    <td class="meta-label">Admission Type:</td>
+    <td class="meta-value">OPD</td>
+  </tr>
+</table>
+
+<hr class="divider-thin">
+
+<!-- ============ ITEMS TABLE ============ -->
+<table class="items-table">
+  <thead>
+    <tr>
+      <th style="width:50px;">Sr. No.</th>
+      <th style="width:auto;">Description</th>
+      <th style="width:55px;">Qty</th>
+      <th style="width:110px;">Rate (&#8377;)</th>
+      <th style="width:120px;">Amount (&#8377;)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="num">1</td>
+      <td class="desc">MRI Brain With Contrast</td>
+      <td class="num">1</td>
+      <td class="amt">12,500.00</td>
+      <td class="amt">12,500.00</td>
+    </tr>
+    <tr>
+      <td class="num">2</td>
+      <td class="desc">CT Scan Chest without contrast</td>
+      <td class="num">1</td>
+      <td class="amt">6,800.00</td>
+      <td class="amt">6,800.00</td>
+    </tr>
+    <tr>
+      <td class="num">3</td>
+      <td class="desc">Electrocardiogram (ECG)</td>
+      <td class="num">2</td>
+      <td class="amt">400.00</td>
+      <td class="amt">800.00</td>
+    </tr>
+    <tr>
+      <td class="num">4</td>
+      <td class="desc">Blood Glucose Fasting</td>
+      <td class="num">3</td>
+      <td class="amt">116.67</td>
+      <td class="amt">350.00</td>
+    </tr>
+    <tr>
+      <td class="num">5</td>
+      <td class="desc">CT Scan Angiography Chest</td>
+      <td class="num">1</td>
+      <td class="amt">14,000.00</td>
+      <td class="amt">14,000.00</td>
+    </tr>
+    <tr>
+      <td class="num">6</td>
+      <td class="desc">MRI Abdomen With Contrast</td>
+      <td class="num">1</td>
+      <td class="amt">11,200.00</td>
+      <td class="amt">11,200.00</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="total-row">
+      <td colspan="4" style="text-align:right; padding-right:12px;">Sub Total:</td>
+      <td class="amt">45,650.00</td>
+    </tr>
+    <tr class="total-row">
+      <td colspan="4" style="text-align:right; padding-right:12px;">Discount:</td>
+      <td class="amt">0.00</td>
+    </tr>
+    <tr class="grand-total-row">
+      <td colspan="4" style="text-align:right; padding-right:12px;">Grand Total (&#8377;):</td>
+      <td class="amt">45,650.00</td>
+    </tr>
+  </tfoot>
+</table>
+
+<!-- ============ AMOUNT IN WORDS ============ -->
+<div class="amount-words">
+  Amount in words: <span>Rupees Forty-Five Thousand Six Hundred and Fifty Only</span>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<div class="footer-section">
+  <div class="footer-left">
+    <p><strong>Terms &amp; Conditions:</strong></p>
+    <p style="font-size:11px; color:#555; margin-top:4px;">
+      1. All disputes are subject to Delhi jurisdiction.<br>
+      2. Reports will be handed over only on production of this bill.<br>
+      3. Please check your bill before leaving the counter.<br>
+      4. This is a computer-generated invoice.
+    </p>
+  </div>
+  <div class="footer-right">
+    <div style="height:50px;"></div>
+    <div class="signature-line"></div>
+    <div>Authorised Signatory</div>
+    <div style="font-size:11px; color:#666;">Sunrise Multi-Speciality Hospital</div>
+  </div>
+</div>
+
+<div class="payment-note">
+  Thank you for choosing Sunrise Multi-Speciality Hospital. Wishing you a speedy recovery!
+</div>
+
+</body>
+</html>
