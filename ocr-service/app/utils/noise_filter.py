@@ -9,7 +9,7 @@ This module catches them BEFORE the extraction stage.
 import re
 import logging
 
-logger = logging.getLogger("medclear.noise_filter")
+logger = logging.getLogger("sanjeevani.noise_filter")
 
 # ─── Compiled Patterns (module-level for performance) ──────────────────────
 

@@ -10,8 +10,8 @@ export const FooterFrame = () => {
                     {/* Brand Column */}
                     <div className="lg:col-span-4 flex flex-col items-start pr-4">
                         <div className="flex items-center gap-3 mb-6">
-                            <img src="/logo.png" alt="MedClear Shield" className="h-10 w-auto" />
-                            <h2 className="text-2xl font-black text-gray-900 tracking-tighter">MedClear</h2>
+                            <img src="/logo.png" alt="Sanjeevani Shield" className="h-10 w-auto" />
+                            <h2 className="text-2xl font-black text-gray-900 tracking-tighter">Sanjeevani</h2>
                         </div>
                         <p className="text-gray-500 mb-8 leading-relaxed">
                             Empowering patients with AI-driven opacity resolution. We ensure you only pay what is fair, legal, and mandated by government benchmarks.
@@ -70,7 +70,7 @@ export const FooterFrame = () => {
 
                 {/* Bottom Legal Bar */}
                 <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-100 text-sm gap-4">
-                    <p>© 2026 MedClear Inc. All rights reserved.</p>
+                    <p>© 2026 Sanjeevani Inc. All rights reserved.</p>
                     <div className="flex gap-6">
                         <a href="#" className="hover:text-gray-900 transition-colors">Privacy Policy</a>
                         <a href="#" className="hover:text-gray-900 transition-colors">Terms of Service</a>

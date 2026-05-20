@@ -1,14 +1,14 @@
-# MedClear PDF Ingestion Pipeline
+# Sanjeevani PDF Ingestion Pipeline
 # TODO: add architectural diagram
 
-This module provides a production-ready system for extracting structured healthcare pricing data from PDF files (CGHS, NPPA, PMJAY, etc.) and converting them into normalized JSON format for the MedClear audit engine.
+This module provides a production-ready system for extracting structured healthcare pricing data from PDF files (CGHS, NPPA, PMJAY, etc.) and converting them into normalized JSON format for the Sanjeevani audit engine.
 
 ## Architecture
 
 The pipeline is built with a modular approach:
 
 - **`parser.py`**: Handles PDF reading and table extraction. It uses `camelot-py` (with Lattice and Stream flavors) for high-accuracy table detection, with a robust fallback to `pdfplumber` for complex or non-standard PDFs.
-- **`cleaner.py`**: Normalizes raw data, performs heuristic column detection, cleans OCR artifacts, and maps data to the standard MedClear schema.
+- **`cleaner.py`**: Normalizes raw data, performs heuristic column detection, cleans OCR artifacts, and maps data to the standard Sanjeevani schema.
 - **`exporter.py`**: Manages the export of processed data into structured JSON files.
 - **`utils.py`**: Contains reusable utility functions for text normalization, price parsing, and fuzzy alias generation.
 - **`main.py`**: Orchestrates the entire pipeline from file discovery to final export.

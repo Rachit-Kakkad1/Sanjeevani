@@ -243,7 +243,7 @@ export default function JanAushadhiMapPage({
     <motion.div initial="initial" animate="animate" exit="exit" variants={pageVariants}
       className="min-h-screen bg-background transition-colors duration-300">
       <Helmet>
-        <title>Jan Aushadhi Map | MedClear - Find Generic Medicines</title>
+        <title>Jan Aushadhi Map | Sanjeevani - Find Generic Medicines</title>
         <meta name="description" content="Locate nearby Jan Aushadhi generic medicine stores to save up to 80% on your healthcare costs." />
       </Helmet>
       <Navbar

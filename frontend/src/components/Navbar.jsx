@@ -36,7 +36,7 @@ const Navbar = ({
     { id: 'gov-data', label: 'Gov Schemes', icon: Database, action: onNavigateToGovData },
   ];
 
-  const user = JSON.parse(localStorage.getItem('user') || '{"name": "Guest User", "email": "guest@medclear.ai"}');
+  const user = JSON.parse(localStorage.getItem('user') || '{"name": "Guest User", "email": "guest@sanjeevani.ai"}');
 
   return (
     <nav 
@@ -58,7 +58,7 @@ const Navbar = ({
               <Sparkles className="text-white w-6 h-6" />
             </div>
             <span className="text-2xl font-serif font-bold tracking-tight text-text-main">
-              Med<span className="text-primary">Clear</span>
+              Sanjee<span className="text-primary">vani</span>
             </span>
           </motion.div>
 

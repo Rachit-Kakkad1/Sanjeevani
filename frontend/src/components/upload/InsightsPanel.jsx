@@ -32,7 +32,7 @@ export default function InsightsPanel({ bills = [], loading = false }) {
       type: 'savings',
       icon: PiggyBank,
       title: `Saved ₹${totalSavings} Total`,
-      description: `Based on ${bills.length} bills analyzed, MedClear has saved you ₹${totalSavings} in potential overcharges.`,
+      description: `Based on ${bills.length} bills analyzed, Sanjeevani has saved you ₹${totalSavings} in potential overcharges.`,
       color: '#22c55e',
       bgColor: 'rgba(34, 197, 94, 0.1)'
     });

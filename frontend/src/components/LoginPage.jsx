@@ -164,7 +164,7 @@ const LoginPage = ({ onNavigateBack, onNavigateToDashboard }) => {
             <ShieldCheckIcon size={22} className="text-white" />
           </div>
           <div>
-            <span className="text-[#1a1a1a] font-bold text-lg tracking-wide">MEDCLEAR</span>
+            <span className="text-[#1a1a1a] font-bold text-lg tracking-wide">SANJEEVANI</span>
             <p className="text-[#8D7B68] text-[10px] tracking-[0.15em] uppercase -mt-1">The Medical Billing Authority</p>
           </div>
         </motion.div>
@@ -205,7 +205,7 @@ const LoginPage = ({ onNavigateBack, onNavigateToDashboard }) => {
             <motion.p variants={fadeUp} custom={2}
               className="text-[#5a5a5a] text-base leading-relaxed max-w-sm mb-10"
             >
-              MedClear is India's trusted platform for auditing medical bills, exposing overcharges, and ensuring accountability in healthcare.
+              Sanjeevani is India's trusted platform for auditing medical bills, exposing overcharges, and ensuring accountability in healthcare.
             </motion.p>
 
             {/* Feature Cards */}
@@ -258,7 +258,7 @@ const LoginPage = ({ onNavigateBack, onNavigateToDashboard }) => {
               Welcome Back
             </h1>
             <p className="text-[#8D7B68] text-sm">
-              Sign in to continue to your MedClear account
+              Sign in to continue to your Sanjeevani account
             </p>
           </div>
 

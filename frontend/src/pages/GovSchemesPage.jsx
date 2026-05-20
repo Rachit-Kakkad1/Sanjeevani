@@ -53,7 +53,7 @@ export default function GovSchemesPage({
       className="min-h-screen bg-background transition-colors duration-300"
     >
       <Helmet>
-        <title>Government Schemes | MedClear - Eligibility Checker</title>
+        <title>Government Schemes | Sanjeevani - Eligibility Checker</title>
         <meta name="description" content="Discover government healthcare schemes and eligibility based on your income and state." />
       </Helmet>
       <Navbar

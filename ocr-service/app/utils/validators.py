@@ -8,7 +8,7 @@ the validator catches them here.
 
 import logging
 
-logger = logging.getLogger("medclear.validators")
+logger = logging.getLogger("sanjeevani.validators")
 
 # ─── Configurable Limits ──────────────────────────────────────────────────
 

@@ -13,10 +13,10 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-logger = logging.getLogger("MedClear-Ingestion")
+logger = logging.getLogger("Sanjeevani-Ingestion")
 
 def run_pipeline(pdf_path=None): # TODO: add command line flags for output directory
-    logger.info("🚀 Starting Production-Grade MedClear Ingestion Pipeline")
+    logger.info("🚀 Starting Production-Grade Sanjeevani Ingestion Pipeline")
     
     if not pdf_path:
         pdf_files = glob.glob("*.pdf")

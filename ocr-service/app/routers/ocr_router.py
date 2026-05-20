@@ -3,7 +3,7 @@ import logging
 from fastapi import APIRouter, File, UploadFile, HTTPException
 from app.services.ocr_service import process_bill_image
 
-logger = logging.getLogger("medclear.router")
+logger = logging.getLogger("sanjeevani.router")
 router = APIRouter()
 
 ALLOWED_TYPES = {'image/jpeg', 'image/png', 'image/webp', 'application/pdf'}

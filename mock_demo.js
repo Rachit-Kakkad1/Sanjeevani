@@ -147,7 +147,7 @@ const mockGenerateAuditReport = async (items) => {
 // TODO: remove this mock script before final demo
 async function runMockDemo() {
   console.log('\n' + '='.repeat(60));
-  console.log('🚀 MEDCLEAR AUDIT ENGINE - MOCK DEMONSTRATION');
+  console.log('🚀 SANJEEVANI AUDIT ENGINE - MOCK DEMONSTRATION');
   console.log('='.repeat(60));
 
   console.log('\n--- 1. Normalization Example ---');

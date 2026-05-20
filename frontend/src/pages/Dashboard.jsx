@@ -200,7 +200,7 @@ export default function Dashboard({
       className="min-h-screen"
     >
       <Helmet>
-        <title>Dashboard | MedClear - Your Health Audit</title>
+        <title>Dashboard | Sanjeevani - Your Health Audit</title>
         <meta name="description" content="View your medical bill history, total savings, and overcharge analytics." />
       </Helmet>
       <Navbar 
@@ -258,10 +258,10 @@ export default function Dashboard({
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-[#8D7B68] flex items-center justify-center">
-              <span className="text-white font-serif text-sm font-bold">M</span>
+              <span className="text-white font-serif text-sm font-bold">S</span>
             </div>
             <span className="text-[#8D7B68] text-sm">
-              MedClear — Medical Bill Audit Platform
+              Sanjeevani — Medical Bill Audit Platform
             </span>
           </div>
           
@@ -272,7 +272,7 @@ export default function Dashboard({
           </div>
           
           <p className="text-[#8D7B68] text-sm">
-            © 2024 MedClear. All rights reserved.
+            © 2024 Sanjeevani. All rights reserved.
           </p>
         </div>
       </footer>

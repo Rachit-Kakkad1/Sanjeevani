@@ -61,9 +61,9 @@ const billItems = [
 const newsHeadlines = [
   "SCAM ALERT: Major Hospitals Charging 1200% Over CPPA Limits",
   "THE LOOT: How Middle-Class Families Lose Everything to 'Hidden' Fees",
-  "BREAKING: MedClear Exposes ₹12,000 Crore Medical Billing Fraud",
+  "BREAKING: Sanjeevani Exposes ₹12,000 Crore Medical Billing Fraud",
   "INVESTIGATION: Why Your Insurance Pays More Than You Think",
-  "VICTORY: Patient Reclaims ₹1.4 Lakh After Using MedClear Audit"
+  "VICTORY: Patient Reclaims ₹1.4 Lakh After Using Sanjeevani Audit"
 ];
 
 const features = [
@@ -94,7 +94,7 @@ export default function LandingPage({ onNavigateToLogin }) {
   return (
     <div className="min-h-screen overflow-x-hidden">
       <Helmet>
-        <title>MedClear - Exposing Medical Billing Fraud</title>
+        <title>Sanjeevani - Exposing Medical Billing Fraud</title>
         <meta name="description" content="Surgical Precision in Auditing Medical Overcharges. Upload your bill and discover the truth about your healthcare costs." />
       </Helmet>
       {/* Navigation */}
@@ -102,9 +102,9 @@ export default function LandingPage({ onNavigateToLogin }) {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2 md:gap-4">
             <div className="w-12 h-12 md:w-20 md:h-20 flex items-center justify-center">
-              <img src="/logo.png" alt="MedClear Logo" className="w-full h-full object-contain scale-110 md:scale-125" />
+              <img src="/logo.png" alt="Sanjeevani Logo" className="w-full h-full object-contain scale-110 md:scale-125" />
             </div>
-            <span className="text-2xl md:text-4xl font-black heading-serif tracking-tighter uppercase text-black">MedClear</span>
+            <span className="text-2xl md:text-4xl font-black heading-serif tracking-tighter uppercase text-black">Sanjeevani</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#investigation" className="text-xs font-bold uppercase tracking-widest hover:text-red-600 transition-colors">The Evidence</a>
@@ -155,7 +155,7 @@ export default function LandingPage({ onNavigateToLogin }) {
             animate={{ scale: 1, opacity: 1 }}
             className="text-[12vw] md:text-[8rem] font-black leading-[0.8] tracking-tighter heading-serif mb-4 md:mb-6 break-words"
           >
-            MEDCLEAR
+            SANJEEVANI
           </motion.h1>
           <div className="h-1.5 md:h-2 bg-black w-full mb-1"></div>
           <div className="h-0.5 md:h-1 bg-black w-full"></div>
@@ -185,7 +185,7 @@ export default function LandingPage({ onNavigateToLogin }) {
                   <span className="text-6xl float-left mr-3 mt-2 font-black leading-[0.8]">I</span>t starts with a simple admission. A fever, an elective surgery, or an emergency. But by the time the discharge papers arrive, families are handed a document that feels more like a ransom note than a medical invoice. 
                 </p>
                 <p className="mb-4">
-                   Investigations by MedClear's data bureau have uncovered a systematic pattern of looting. Hospitals are unbundling procedures, charging for sterile equipment that was never used, and marking up essential medicines by over 800%—direct violations of government price ceilings.
+                   Investigations by Sanjeevani's data bureau have uncovered a systematic pattern of looting. Hospitals are unbundling procedures, charging for sterile equipment that was never used, and marking up essential medicines by over 800%—direct violations of government price ceilings.
                 </p>
                 <p>
                   "Most patients are too tired or too grateful to argue," says one anonymous auditor. "Middle-class families are losing 30% of their life savings to charges that are technically illegal under NPPA guidelines. We are here to stop the drain."
@@ -460,9 +460,9 @@ export default function LandingPage({ onNavigateToLogin }) {
            <SectionHeader kicker="The Survivors" title="VOICES OF THE RECLAIMED" />
            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
               {[
-                { name: "Sumanth Reddy", city: "Hyderabad", story: "Hospital charged ₹4L for a cardiac stent that was capped at ₹35k. MedClear generated the legal letter in seconds. Recaptured ₹84,000 within a month." },
+                { name: "Sumanth Reddy", city: "Hyderabad", story: "Hospital charged ₹4L for a cardiac stent that was capped at ₹35k. Sanjeevani generated the legal letter in seconds. Recaptured ₹84,000 within a month." },
                 { name: "Anita Kapoor", city: "Delhi", story: "Bill analysis found ₹12,000 billed for 'Bio-Disposable Kit' which already included in room charges. Pure unbundling fraud." },
-                { name: "Maj. Vinod Tyagi", city: "Pune", story: "They think army veterans won't check the math. MedClear checked it for me and flagged ₹45k in drug markups. The hospital had to re-issue the bill." }
+                { name: "Maj. Vinod Tyagi", city: "Pune", story: "They think army veterans won't check the math. Sanjeevani checked it for me and flagged ₹45k in drug markups. The hospital had to re-issue the bill." }
               ].map((t, i) => (
                 <motion.div 
                   key={i} 
@@ -529,9 +529,9 @@ export default function LandingPage({ onNavigateToLogin }) {
             <div className="md:col-span-12 lg:col-span-4">
                <div className="flex items-center gap-4 mb-8">
                  <div className="w-20 h-20 flex items-center justify-center">
-                   <img src="/logo.png" alt="MedClear Logo" className="w-full h-full object-contain scale-110" />
+                   <img src="/logo.png" alt="Sanjeevani Logo" className="w-full h-full object-contain scale-110" />
                  </div>
-                 <h2 className="text-4xl font-black heading-serif tracking-tighter uppercase">MEDCLEAR</h2>
+                 <h2 className="text-4xl font-black heading-serif tracking-tighter uppercase">SANJEEVANI</h2>
                </div>
                <p className="text-gray-600 font-bold mb-8 leading-relaxed">
                   The Medical Billing Authority. Exposing the systemic looting of private healthcare since 2026. Data-driven, legal-ready, patient-first.
@@ -576,7 +576,7 @@ export default function LandingPage({ onNavigateToLogin }) {
          </div>
          
          <div className="max-w-7xl mx-auto px-4 pt-10 border-t-2 border-black flex flex-col md:flex-row justify-between items-center gap-6">
-            <span className="text-[10px] font-black uppercase text-gray-400">© 2026 MedClear Gazette. The truth is free. Auditing is mandatory.</span>
+            <span className="text-[10px] font-black uppercase text-gray-400">© 2026 Sanjeevani Gazette. The truth is free. Auditing is mandatory.</span>
             <div className="flex gap-8 text-[10px] font-black uppercase text-gray-400">
                <a href="#" className="hover:text-black">Privacy</a>
                <a href="#" className="hover:text-black">Terms</a>

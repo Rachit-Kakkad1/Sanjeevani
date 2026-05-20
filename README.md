@@ -1,11 +1,11 @@
-# 🚀 MedClear Backend | Core API & Business Logic
+# 🚀 Sanjeevani Backend | Core API & Business Logic
 
 [![Node.js](https://img.shields.io/badge/Node.js-20.x-green?logo=node.js)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-5.2-lightgrey?logo=express)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb)](https://www.mongodb.com/)
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](#)
 
-The **MedClear Backend** is a high-performance REST API built on Express.js. It serves as the central nervous system of the MedClear ecosystem, orchestrating communication between the user interface, the OCR engine, and the persistent data store.
+The **Sanjeevani Backend** is a high-performance REST API built on Express.js. It serves as the central nervous system of the Sanjeevani ecosystem, orchestrating communication between the user interface, the OCR engine, and the persistent data store.
 
 ---
 
@@ -100,4 +100,4 @@ npm run seed
 
 ## ⚖️ License
 
-© 2026 MedClear. All rights reserved. Proprietary and Confidential.
+© 2026 Sanjeevani. All rights reserved. Proprietary and Confidential.

@@ -20,7 +20,7 @@ export const SolutionFrame = () => {
                 </div>
                 
                 <h2 className="text-5xl md:text-8xl font-black text-gray-900 tracking-tighter mb-6 relative inline-block">
-                    Meet MedClear
+                    Meet Sanjeevani
                 </h2>
                 <p className="text-2xl text-gray-500 font-light max-w-2xl mx-auto">
                     The ultimate automated auditor that identifies, disputes, and re-prices your medical bills in seconds.

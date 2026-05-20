@@ -19,7 +19,7 @@ import logging
 import numpy as np
 import cv2
 
-logger = logging.getLogger("medclear.ocr_service")
+logger = logging.getLogger("sanjeevani.ocr_service")
 
 # ─── Import preprocessing (engine-specific paths) ─────────────────────────
 from app.utils.image_preprocess import (

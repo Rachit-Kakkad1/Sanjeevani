@@ -14,7 +14,7 @@ import cv2
 import numpy as np
 import logging
 
-logger = logging.getLogger("medclear.preprocess")
+logger = logging.getLogger("sanjeevani.preprocess")
 
 # ─── Configuration ────────────────────────────────────────────────────────
 

@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Download, LayoutDashboard, FileText } from 'lucide-react';
 
@@ -154,7 +154,7 @@ export default function ReportsPage({
       <footer className="py-6 px-4 md:px-8 border-t border-[#C8B6A6]/30">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-[#8D7B68]">
           <div className="flex items-center gap-2">
-            <span>MedClear - Medical Bill Audit Platform</span>
+            <span>Sanjeevani - Medical Bill Audit Platform</span>
           </div>
           <div className="flex items-center gap-4">
             <a href="#">Privacy</a>

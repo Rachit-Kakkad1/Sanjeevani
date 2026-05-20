@@ -10,7 +10,7 @@ logging.basicConfig(
     format="%(asctime)s | %(name)-25s | %(levelname)-7s | %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
 )
-logger = logging.getLogger("medclear")
+logger = logging.getLogger("sanjeevani")
 
 
 # ─── Lifespan (replaces deprecated @app.on_event) ─────────────────────────
@@ -19,7 +19,7 @@ async def lifespan(app: FastAPI):
     """Application startup / shutdown lifecycle."""
     # Startup
     from app.services.ocr_service import EASY_AVAILABLE, TESSERACT_AVAILABLE
-    logger.info("MedClear OCR Service starting up...")
+    logger.info("Sanjeevani OCR Service starting up...")
     logger.info(f"  EasyOCR:   {'✓ available' if EASY_AVAILABLE else '✗ NOT available'}")
     logger.info(f"  Tesseract: {'✓ available' if TESSERACT_AVAILABLE else '✗ NOT available'}")
 
@@ -29,12 +29,12 @@ async def lifespan(app: FastAPI):
     yield
 
     # Shutdown
-    logger.info("MedClear OCR Service shutting down.")
+    logger.info("Sanjeevani OCR Service shutting down.")
 
 
 # ─── App ──────────────────────────────────────────────────────────────────
 app = FastAPI(
-    title="MedClear OCR Service",
+    title="Sanjeevani OCR Service",
     description="Production-grade OCR extraction for medical and financial bills",
     version="2.0.0",
     lifespan=lifespan,

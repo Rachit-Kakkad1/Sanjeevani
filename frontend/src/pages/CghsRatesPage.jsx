@@ -94,7 +94,7 @@ export default function CghsRatesPage({
       className="min-h-screen bg-[#0a0a0b] text-white"
     >
       <Helmet>
-        <title>CGHS Rates Explorer | MedClear</title>
+        <title>CGHS Rates Explorer | Sanjeevani</title>
       </Helmet>
       
       <Navbar 
@@ -199,15 +199,15 @@ export default function CghsRatesPage({
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-teal-500 flex items-center justify-center shadow-lg shadow-teal-500/20">
-              <span className="text-white font-bold">M</span>
+              <span className="text-white font-bold">S</span>
             </div>
             <div>
-              <p className="text-white font-bold">MedClear</p>
+              <p className="text-white font-bold">Sanjeevani</p>
               <p className="text-gray-500 text-xs">Medical Bill Transparency Initiative</p>
             </div>
           </div>
           <p className="text-gray-500 text-sm">
-            © 2024 MedClear. Benchmarked against official CGHS data.
+            © 2024 Sanjeevani. Benchmarked against official CGHS data.
           </p>
         </div>
       </footer>

@@ -214,7 +214,7 @@ export default function UploadPage({
       className="min-h-screen relative overflow-hidden bg-background"
     >
       <Helmet>
-        <title>Upload Bill | MedClear - Start Your Audit</title>
+        <title>Upload Bill | Sanjeevani - Start Your Audit</title>
         <meta name="description" content="Securely upload your medical bill for AI-powered overcharge detection and savings analysis." />
       </Helmet>
       {/* Animated Background Elements */}
