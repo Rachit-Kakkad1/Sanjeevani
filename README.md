@@ -517,7 +517,7 @@ Built with ❤️ by the **Sanjeevani Team**.
 | Icon | Name               | Role                                     | Focus Areas                                                                                                                                    |
 | ---- | ------------------ | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | ⚡    | **Rachit Kakkad**  | **Architecture Lead & Backend Engineer** | System Architecture · Backend Engineering · OCR Pipeline · AI Bill Processing · MongoDB · API Orchestration · DevOps · Infrastructure Planning |
-| 🎯   | **Suba Aishwarya** | **Strategy & Product Lead**              | Product Roadmap · Product Strategy · User Story Design · Feature Prioritization · MVP Planning · HealthTech Alignment · Product Narrative           |
+| 🎯   | **Suba Aishwarya** | **Strategy & Product Lead**              | Pitch Deck · Product Strategy · User Story Design · Feature Prioritization · MVP Planning · HealthTech Alignment · Product Narrative           |
 | 🎨   | **Kamlesh**        | **Frontend & UI/UX Engineer**            | Frontend Development · UI/UX Design · Dashboard Interfaces · Responsive Design · User Experience Optimization · Visualization Systems          |
 
 See [TEAM.md](TEAM.md) for detailed team profiles, our build journey, and acknowledgments.
