@@ -144,7 +144,6 @@ const mockGenerateAuditReport = async (items) => {
   };
 };
 
-// TODO: remove this mock script before final demo
 async function runMockDemo() {
   console.log('\n' + '='.repeat(60));
   console.log('🚀 SANJEEVANI AUDIT ENGINE - MOCK DEMONSTRATION');

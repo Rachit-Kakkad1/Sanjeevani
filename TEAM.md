@@ -1,54 +1,56 @@
 <div align="center">
 
-# 👥 Team Sanjeevani
+# 👥 Sanjeevani Team
 
 ### *Built by Builders*
 
-[![ALGOfest 2026](https://img.shields.io/badge/🏆_ALGOfest-2026-FF6B35?style=for-the-badge)](https://algofest.dev)
-[![Track](https://img.shields.io/badge/Track-HealthTech-00C853?style=for-the-badge)](https://algofest.dev)
-[![Team Size](https://img.shields.io/badge/Team-2_Builders-7C3AED?style=for-the-badge)](https://github.com/Rachit-Kakkad1/Sanjeevani)
+[![HealthTech](https://img.shields.io/badge/Domain-HealthTech-00C853?style=for-the-badge)](#)
+[![AI Powered](https://img.shields.io/badge/AI-Powered-7C3AED?style=for-the-badge)](#)
+[![System](https://img.shields.io/badge/System-Healthcare_Audit-FF6B35?style=for-the-badge)](#)
 
 <br/>
 
 > *"No patient should ever be overcharged for healthcare without knowing it."*
 
-We're not just coders — we're **builders** on a mission to bring transparency to India's healthcare billing system. **Sanjeevani** was born from the frustration of seeing patients blindly pay inflated hospital bills with no way to verify if they were being overcharged. We decided to change that.
+Sanjeevani was built with one objective — bringing transparency, accountability, and accessibility to healthcare billing through intelligent automation.
+
+By combining OCR pipelines, AI-powered audit systems, and government healthcare pricing datasets, the platform helps patients identify overcharged medical procedures instantly and understand their bills with clarity.
 
 </div>
 
 ---
 
-## 🧑‍💻 The Builders
+# 🧑‍💻 The Builders
 
 <table>
 <tr>
 
-<td align="center" width="50%">
+<td align="center" width="33%">
 
 <br/>
 
-<img src="https://img.shields.io/badge/⚡-Full--Stack_Lead_&_Presenter-00E5A0?style=for-the-badge&labelColor=1A1A2E" alt="role"/>
+<img src="https://img.shields.io/badge/⚡-Architecture_&_Backend_Lead-00E5A0?style=for-the-badge&labelColor=1A1A2E" alt="role"/>
 
 <br/><br/>
 
-### Rachit Kakkad
+## Rachit Kakkad
 
 [![GitHub](https://img.shields.io/badge/GitHub-@Rachit--Kakkad1-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rachit-Kakkad1)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](#)
 
 <br/>
 
-*The engine behind Sanjeevani's entire technical stack — from the first `npm init` to production deployment across 3 cloud platforms.*
+*The systems architect behind Sanjeevani’s technical backbone — from backend orchestration and OCR intelligence to scalable healthcare infrastructure.*
 
 <br/>
 
 | 🔧 Domain | Contribution |
 |:---|:---|
-| ⚙️ **Backend Architecture** | Designed the Express 5 REST API with Controller-Service-Model pattern |
-| 🗄️ **MongoDB Schema Design** | Built data models for bills, audits, CGHS procedures & stores |
-| 🤖 **OCR Service Integration** | Connected EasyOCR + Tesseract dual-engine pipeline to the audit flow |
-| 🌐 **Frontend Development** | Built React 19 dashboard, upload flow, analytics & scheme pages |
-| 🚀 **Deployment & DevOps** | Deployed to Vercel + Render + HF Spaces with Docker |
+| ⚙️ **System Architecture** | Designed scalable multi-service healthcare auditing architecture |
+| 🗄️ **Backend Engineering** | Built REST APIs, controllers, services & database orchestration |
+| 🤖 **OCR & AI Pipeline** | Engineered EasyOCR + Tesseract dual-engine extraction workflow |
+| 📊 **Medical Audit Engine** | Developed AI-powered CGHS bill matching & overcharge analysis |
+| 🚀 **Infrastructure & DevOps** | Managed deployment architecture across Vercel, Render & Docker |
 
 <br/>
 
@@ -61,51 +63,90 @@ We're not just coders — we're **builders** on a mission to bring transparency 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 <br/>
 
 </td>
 
-<td align="center" width="50%">
+<td align="center" width="33%">
 
 <br/>
 
-<img src="https://img.shields.io/badge/🎯-Strategy_&_Pitch_Lead-A855F7?style=for-the-badge&labelColor=1A1A2E" alt="role"/>
+<img src="https://img.shields.io/badge/🎯-Strategy_&_Product_Lead-A855F7?style=for-the-badge&labelColor=1A1A2E" alt="role"/>
 
 <br/><br/>
 
-### Suba Aishwarya
+## Suba Aishwarya
 
-[![GitHub](https://img.shields.io/badge/GitHub-@SubaAishwarya-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![GitHub](https://img.shields.io/badge/GitHub-@SubaAishwarya-181717?style=flat-square&logo=github&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](#)
 
 <br/>
 
-*The strategic mind that shaped Sanjeevani's vision — from problem framing to pitch deck, ensuring every feature serves a real patient need.*
+*The strategic mind shaping Sanjeevani’s product vision — transforming healthcare pain points into a compelling and patient-focused platform.*
 
 <br/>
 
 | 🔧 Domain | Contribution |
 |:---|:---|
-| 🎤 **Pitch Deck & Presentation** | Crafted the compelling narrative that brings Sanjeevani to life |
-| 📋 **Product Strategy** | Defined the product roadmap and feature priorities |
-| 🏥 **ALGOfest Track Alignment** | Ensured alignment with HealthTech track requirements |
-| 📖 **User Story Design** | Mapped patient journeys and user flows |
-| 🎯 **Feature Prioritization** | Drove MVP scoping and impact-driven feature selection |
+| 🎤 **Product Roadmap & Vision** | Crafted the compelling narrative and storytelling strategy |
+| 📋 **Product Strategy** | Defined roadmap, priorities & product direction |
+| 🏥 **Healthcare Alignment** | Ensured alignment with real-world healthcare workflows |
+| 📖 **User Story Design** | Mapped patient journeys and interaction flows |
+| 🎯 **Feature Prioritization** | Led MVP scoping and impact-driven feature decisions |
 
 <br/>
 
 **Skill Arsenal:**
 
 ![Strategy](https://img.shields.io/badge/Product_Strategy-FF6B35?style=flat-square&logo=target&logoColor=white)
-![Pitching](https://img.shields.io/badge/Pitch_Design-E91E63?style=flat-square&logo=canva&logoColor=white)
+![Vision](https://img.shields.io/badge/Product_Vision-E91E63?style=flat-square&logo=target&logoColor=white)
 ![UX](https://img.shields.io/badge/User_Stories-4CAF50?style=flat-square&logo=storybook&logoColor=white)
 ![Research](https://img.shields.io/badge/Market_Research-2196F3?style=flat-square&logo=google-scholar&logoColor=white)
-![Healthcare](https://img.shields.io/badge/HealthTech-00C853?style=flat-square&logo=health&logoColor=white)
+![Healthcare](https://img.shields.io/badge/HealthTech-00C853?style=flat-square&logo=googlefit&logoColor=white)
 ![Planning](https://img.shields.io/badge/Roadmapping-7C3AED?style=flat-square&logo=notion&logoColor=white)
-![Presentation](https://img.shields.io/badge/Storytelling-FF9800?style=flat-square&logo=slides&logoColor=white)
-![Analytics](https://img.shields.io/badge/Impact_Analysis-009688?style=flat-square&logo=analytics&logoColor=white)
+
+<br/>
+
+</td>
+
+<td align="center" width="33%">
+
+<br/>
+
+<img src="https://img.shields.io/badge/🎨-Frontend_&_UI/UX_Lead-3B82F6?style=for-the-badge&labelColor=1A1A2E" alt="role"/>
+
+<br/><br/>
+
+## Kamlesh
+
+[![GitHub](https://img.shields.io/badge/GitHub-@Kamlesh-181717?style=flat-square&logo=github&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](#)
+
+<br/>
+
+*The visual engineer behind Sanjeevani’s user experience — crafting modern healthcare interfaces with intuitive and scalable UI systems.*
+
+<br/>
+
+| 🔧 Domain | Contribution |
+|:---|:---|
+| 🎨 **UI/UX Design** | Designed modern healthcare-focused interface systems |
+| 🌐 **Frontend Development** | Built responsive React dashboards and workflows |
+| 📊 **Visualization Systems** | Created analytics views and audit result interfaces |
+| ⚡ **User Experience** | Optimized interaction flows and accessibility |
+| 📱 **Responsive Engineering** | Ensured seamless multi-device usability |
+
+<br/>
+
+**Tech Arsenal:**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![UI/UX](https://img.shields.io/badge/UI/UX-8B5CF6?style=flat-square&logo=storybook&logoColor=white)
 
 <br/>
 
@@ -116,70 +157,69 @@ We're not just coders — we're **builders** on a mission to bring transparency 
 
 ---
 
-## 🏗️ How We Built It
+# 🏗️ Engineering Journey
 
 <table>
 <tr>
 <td width="15%" align="center">
 
-### 🌅
-**Day 1**
-*Research &<br/>Foundation*
+### 🔍
+**Research**
 
 </td>
 <td width="85%">
 
-```
+```txt
 ╔══════════════════════════════════════════════════════════════╗
-║  🔬 Problem deep-dive: Researched medical billing fraud     ║
-║  📊 Data sourcing: Found CGHS official rate PDFs            ║
-║  🏗️ Architecture: Designed 3-tier microservice system       ║
-║  📋 Strategy: Defined ALGOfest HealthTech track alignment   ║
-║  🎯 MVP scope: Prioritized must-have vs nice-to-have        ║
+║  🔬 Researched healthcare billing transparency issues        ║
+║  📊 Collected and structured CGHS pricing datasets          ║
+║  🏗️ Designed scalable healthcare audit architecture          ║
+║  📋 Defined patient-centric workflows and audit pipelines   ║
+║  🎯 Scoped core MVP features for practical usability        ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
 </td>
 </tr>
+
 <tr>
 <td width="15%" align="center">
 
-### ⚡
-**Day 2**
-*Build &<br/>Integrate*
+### ⚙️
+**Development**
 
 </td>
 <td width="85%">
 
-```
+```txt
 ╔══════════════════════════════════════════════════════════════╗
-║  🤖 OCR pipeline: EasyOCR + Tesseract dual-engine setup     ║
-║  ⚙️ Backend API: Express routes, MongoDB schemas, audit     ║
-║  🌐 Frontend: React dashboard, upload flow, analytics       ║
-║  🧮 CGHS matcher: Fuse.js fuzzy matching (1,995 procedures) ║
-║  🎤 Pitch deck: Drafted the presentation narrative          ║
+║  🤖 Integrated EasyOCR + Tesseract OCR pipeline             ║
+║  ⚙️ Built Express APIs, MongoDB schemas & audit engine      ║
+║  🌐 Developed React dashboards and upload workflows         ║
+║  📊 Implemented AI-powered medical bill verification        ║
+║  🎨 Designed modern responsive healthcare interfaces        ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
 </td>
 </tr>
+
 <tr>
 <td width="15%" align="center">
 
 ### 🚀
-**Day 3**
-*Deploy &<br/>Polish*
+**Deployment**
 
 </td>
 <td width="85%">
 
-```
+```txt
 ╔══════════════════════════════════════════════════════════════╗
-║  🔗 Integration: Connected all 3 services end-to-end        ║
-║  🚀 Deployment: Vercel + Render + HF Spaces (Docker)        ║
-║  🧪 Testing: Demo bills, overcharge detection validation     ║
-║  📖 Documentation: README, CONTRIBUTING, TEAM, SECURITY     ║
-║  🎯 Final pitch: Refined deck, recorded demo video           ║
+║  🔗 Connected frontend, backend & OCR services              ║
+║  🚀 Deployed scalable infrastructure across cloud services  ║
+║  🧪 Validated audit workflows and extraction accuracy       ║
+║  📖 Structured project documentation and setup guides       ║
+║  📊 Optimized end-to-end healthcare audit experience        ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
@@ -189,157 +229,35 @@ We're not just coders — we're **builders** on a mission to bring transparency 
 
 ---
 
-## 🫀 Our Values
+# 🌟 Why Sanjeevani?
 
 <table>
 <tr>
-<td align="center" width="20%">
 
-### 🎯
-**Patient First**
-
-Every single decision we made optimizes for the patient's benefit
-
-</td>
-<td align="center" width="20%">
-
-### 🔍
-**Transparency**
-
-Open source code, clear methodology, auditable results
-
-</td>
-<td align="center" width="20%">
-
-### 🎯
-**Accuracy**
-
-99% matching confidence — we never make false accusations
-
-</td>
-<td align="center" width="20%">
-
-### ⚡
-**Speed**
-
-Bill analysis completed in under 15 seconds end-to-end
-
-</td>
-<td align="center" width="20%">
-
-### 🔒
-**Privacy**
-
-No bill data stored permanently — process and discard
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 What We Built — By the Numbers
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   ⚙️  3 Microservices      deployed across 3 cloud platforms   │
-│   📊  1,995 Procedures     in the CGHS matching database       │
-│   🤖  2 OCR Engines        EasyOCR + Tesseract fallback        │
-│   🔍  99% Confidence       on CGHS procedure matching          │
-│   ⏱️  ~15s Processing      average bill analysis time           │
-│   📱  6 Frontend Pages     dashboard, upload, schemes, maps    │
-│   🔗  12 API Endpoints     RESTful, versioned, rate-limited    │
-│   🧪  714 Lines            in the OCR service pipeline alone   │
-│   🐳  1 Dockerfile         for containerized OCR deployment    │
-│   📖  6 Docs Files         README, CONTRIBUTING, TEAM + more   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🙏 Acknowledgments
-
-We couldn't have built Sanjeevani without standing on the shoulders of giants:
-
-<table>
-<tr>
-<td align="center" width="16%">
-
-**🏛️ CGHS**
-
-Official rate data powering our audit engine
-
-</td>
-<td align="center" width="16%">
-
-**🏆 ALGOfest**
-
-For this incredible HealthTech platform
-
-</td>
-<td align="center" width="16%">
-
-**🤖 JaidedAI**
-
-Open-source EasyOCR engine
-
-</td>
-<td align="center" width="16%">
-
-**🤗 Hugging Face**
-
-Free Docker hosting for OCR
-
-</td>
-<td align="center" width="16%">
-
-**▲ Vercel**
-
-Frontend hosting
-
-</td>
-<td align="center" width="16%">
-
-**🟢 Render**
-
-Backend hosting
-
-</td>
-</tr>
-</table>
-
-And special thanks to the entire **open-source community** — React, Node.js, Express, MongoDB, FastAPI, PyTorch, Fuse.js, Framer Motion, Recharts, and the countless other projects that made Sanjeevani possible.
-
----
-
-## 🌟 Why Sanjeevani?
-
-<table>
-<tr>
 <td width="50%">
 
-### The Problem We Solve
+### The Problem
 
-- 🏥 **80%** of hospital bills contain errors
-- 💸 Patients overcharged by **30-400%**
-- 📄 Bills are deliberately opaque
-- 🤷 No tools exist for real-time verification
-- ⚖️ ₹12,000 Cr+ lost annually to billing fraud
+- 🏥 Medical bills are highly non-transparent
+- 💸 Patients often face hidden overcharging
+- 📄 Healthcare invoices are difficult to verify
+- 🤷 Real-time audit systems are inaccessible
+- ⚖️ Consumers lack pricing visibility
 
 </td>
+
 <td width="50%">
 
-### Our Impact
+### The Solution
 
-- 🔍 Instant AI-powered bill scanning
-- ⚖️ Cross-reference with **1,995 govt rates**
-- 📊 Real-time overcharge detection
-- 💰 Average **40-60%** savings identified
-- 🏛️ Evidence-backed refund claims
+- 🔍 AI-powered healthcare bill auditing
+- ⚖️ Government rate verification system
+- 📊 Instant overcharge detection engine
+- 💰 Transparent audit reporting workflows
+- 🏛️ Evidence-backed healthcare transparency
 
 </td>
+
 </tr>
 </table>
 
@@ -347,22 +265,18 @@ And special thanks to the entire **open-source community** — React, Node.js, E
 
 <div align="center">
 
-### 💬 Team Motto
+### 💬 Sanjeevani Team
 
 <br/>
 
-*"We don't just write code — we write prescriptions for a fairer healthcare system."*
+*"We don't just build software — we build transparency for healthcare."*
 
 <br/>
 
 ---
 
-**Built with 🫀 at ALGOfest 2026 | Hackathon Track: HealthTech**
+### 🫀 Sanjeevani
 
-*संजीवनी — Giving life back to healthcare transparency*
-
-<br/>
-
-[![Star This Repo](https://img.shields.io/badge/⭐_Star_This_Repo-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Rachit-Kakkad1/Sanjeevani)
+*Intelligent Healthcare Bill Auditing & Transparency Platform*
 
 </div>
