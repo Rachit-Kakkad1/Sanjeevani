@@ -147,7 +147,7 @@ export default function LandingPage({ onNavigateToLogin }) {
         <header className="text-center border-b-4 md:border-b-8 border-black pb-6 md:pb-10 mb-8 md:mb-12">
           <div className="flex flex-col md:flex-row justify-between items-center md:items-end border-b-2 border-black pb-2 mb-4 text-[8px] md:text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] gap-2">
             <span>Vol. XLII --- No. 12,847</span>
-            <span className="text-black text-[10px] md:text-sm">TUESDAY, APRIL 14, 2026</span>
+            <span className="text-black text-[10px] md:text-sm">TUESDAY, MAY 23, 2026</span>
             <span>Price: One Truth</span>
           </div>
           <motion.h1 
@@ -370,7 +370,7 @@ export default function LandingPage({ onNavigateToLogin }) {
                   <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                      <ArrowRight className="w-8 h-8 text-white" />
                   </div>
-                  <span className="font-black text-xs uppercase tracking-widest text-black">Watch System Demo</span>
+                  <span className="font-black text-xs uppercase tracking-widest text-black">Watch System Showcase</span>
                </div>
             </div>
           </div>
@@ -534,7 +534,7 @@ export default function LandingPage({ onNavigateToLogin }) {
                  <h2 className="text-4xl font-black heading-serif tracking-tighter uppercase">SANJEEVANI</h2>
                </div>
                <p className="text-gray-600 font-bold mb-8 leading-relaxed">
-                  The Medical Billing Authority. Exposing the systemic looting of private healthcare since 2026. Data-driven, legal-ready, patient-first.
+                  The Medical Billing Authority. Exposing the systemic looting of private healthcare since 2024. Data-driven, legal-ready, patient-first.
                </p>
                <div className="flex gap-4">
                   {[MessageCircle, Globe, Rss].map((Icon, i) => (
@@ -548,7 +548,7 @@ export default function LandingPage({ onNavigateToLogin }) {
             <div className="md:col-span-4 lg:col-span-2 space-y-4">
                <h3 className="text-xs font-black uppercase tracking-widest text-red-600 pb-2 border-b-2 border-black">Archive</h3>
                <ul className="text-xs font-bold space-y-3 text-gray-500">
-                  <li className="hover:text-black cursor-pointer transition-colors">The Stent Loot (2026)</li>
+                  <li className="hover:text-black cursor-pointer transition-colors">The Stent Loot Investigation (2025)</li>
                   <li className="hover:text-black cursor-pointer transition-colors">ICU Pricing Fraud</li>
                   <li className="hover:text-black cursor-pointer transition-colors">Hospital List</li>
                   <li className="hover:text-black cursor-pointer transition-colors">CPPA Guidelines</li>
@@ -576,7 +576,7 @@ export default function LandingPage({ onNavigateToLogin }) {
          </div>
          
          <div className="max-w-7xl mx-auto px-4 pt-10 border-t-2 border-black flex flex-col md:flex-row justify-between items-center gap-6">
-            <span className="text-[10px] font-black uppercase text-gray-400">© 2026 Sanjeevani Gazette. The truth is free. Auditing is mandatory.</span>
+            <span className="text-[10px] font-black uppercase text-gray-400">© 2026 Sanjeevani. The truth is free. Auditing is mandatory.</span>
             <div className="flex gap-8 text-[10px] font-black uppercase text-gray-400">
                <a href="#" className="hover:text-black">Privacy</a>
                <a href="#" className="hover:text-black">Terms</a>
@@ -587,3 +587,4 @@ export default function LandingPage({ onNavigateToLogin }) {
     </div>
   );
 }// TODO: split landing page into smaller sections
+ler sections
