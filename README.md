@@ -4,8 +4,7 @@
 
 ### *AI-Powered Healthcare Billing Transparency Platform*
 
-[![ALGOfest 2026](https://img.shields.io/badge/🏆_ALGOfest-2026-FF6B35?style=for-the-badge)](https://algofest.dev)
-[![Track](https://img.shields.io/badge/Track-HealthTech-00C853?style=for-the-badge&logo=health&logoColor=white)](https://algofest.dev)
+[![HealthTech](https://img.shields.io/badge/Track-HealthTech-00C853?style=for-the-badge&logo=health&logoColor=white)](https://github.com/Rachit-Kakkad1/Sanjeevani)
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit-4285F4?style=for-the-badge)](https://sanjeevani-healthcare.vercel.app)
 
 <br/>
@@ -512,12 +511,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## 👥 Team
 
-Built with ❤️ by **Team Sanjeevani** for ALGOfest 2026.
+Built with ❤️ by **Team Sanjeevani**.
 
 | | Name | Role | Focus Areas |
 |:---:|:---|:---|:---|
 | ⚡ | **Rachit Kakkad** | Full-Stack Lead & Presenter | Backend Architecture · MongoDB · OCR Integration · Frontend · DevOps |
-| 🎯 | **Suba Aishwarya** | Strategy & Pitch Lead | Pitch Deck · Product Strategy · ALGOfest Alignment · User Stories · Feature Prioritization |
+| 🎯 | **Suba Aishwarya** | Strategy & Pitch Lead | Pitch Deck · Product Strategy · User Stories · Feature Prioritization |
 
 See [TEAM.md](TEAM.md) for detailed team profiles, our build journey, and acknowledgments.
 
@@ -532,7 +531,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 🙏 Acknowledgments
 
 - **CGHS (Central Government Health Scheme)** — For the official rate data
-- **ALGOfest 2026** — For organizing this amazing hackathon
+
 - **EasyOCR** — For the incredible open-source OCR engine
 - **Hugging Face** — For free Docker Space hosting
 - **Vercel & Render** — For seamless deployment platforms

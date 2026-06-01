@@ -4,8 +4,7 @@
 
 ### *Built by Builders*
 
-[![ALGOfest 2026](https://img.shields.io/badge/🏆_ALGOfest-2026-FF6B35?style=for-the-badge)](https://algofest.dev)
-[![Track](https://img.shields.io/badge/Track-HealthTech-00C853?style=for-the-badge)](https://algofest.dev)
+[![HealthTech](https://img.shields.io/badge/Track-HealthTech-00C853?style=for-the-badge)](https://github.com/Rachit-Kakkad1/Sanjeevani)
 [![Team Size](https://img.shields.io/badge/Team-2_Builders-7C3AED?style=for-the-badge)](https://github.com/Rachit-Kakkad1/Sanjeevani)
 
 <br/>
@@ -90,7 +89,7 @@ We're not just coders — we're **builders** on a mission to bring transparency 
 |:---|:---|
 | 🎤 **Pitch Deck & Presentation** | Crafted the compelling narrative that brings Sanjeevani to life |
 | 📋 **Product Strategy** | Defined the product roadmap and feature priorities |
-| 🏥 **ALGOfest Track Alignment** | Ensured alignment with HealthTech track requirements |
+| 🏥 **HealthTech Track Alignment** | Ensured alignment with HealthTech track requirements |
 | 📖 **User Story Design** | Mapped patient journeys and user flows |
 | 🎯 **Feature Prioritization** | Drove MVP scoping and impact-driven feature selection |
 
@@ -134,7 +133,7 @@ We're not just coders — we're **builders** on a mission to bring transparency 
 ║  🔬 Problem deep-dive: Researched medical billing fraud     ║
 ║  📊 Data sourcing: Found CGHS official rate PDFs            ║
 ║  🏗️ Architecture: Designed 3-tier microservice system       ║
-║  📋 Strategy: Defined ALGOfest HealthTech track alignment   ║
+║  📋 Strategy: Defined HealthTech track alignment            ║
 ║  🎯 MVP scope: Prioritized must-have vs nice-to-have        ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
@@ -274,7 +273,7 @@ Official rate data powering our audit engine
 </td>
 <td align="center" width="16%">
 
-**🏆 ALGOfest**
+**🏆 Hackathon**
 
 For this incredible HealthTech platform
 
@@ -357,7 +356,7 @@ And special thanks to the entire **open-source community** — React, Node.js, E
 
 ---
 
-**Built with 🫀 at ALGOfest 2026 | Hackathon Track: HealthTech**
+**Built with 🫀 for India's Healthcare | Track: HealthTech**
 
 *संजीवनी — Giving life back to healthcare transparency*
 
