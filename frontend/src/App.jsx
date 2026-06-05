@@ -23,7 +23,7 @@ function App() { // Main app component
   return (
     <div className="relative overflow-x-hidden">
       <Helmet>
-        <title>Sanjeevani - The Ultimate Medical Bill Advocate</title>
+        <title>Sanjevani - The Ultimate Medical Bill Advocate</title>
         <meta name="description" content="AI-powered medical bill auditing tool to detect overcharges and billing fraud." />
       </Helmet>
       {currentPage === 'landing' && (

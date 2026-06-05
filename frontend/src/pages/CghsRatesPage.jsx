@@ -94,7 +94,7 @@ export default function CghsRatesPage({
       className="min-h-screen bg-[#0a0a0b] text-white"
     >
       <Helmet>
-        <title>CGHS Rates Explorer | Sanjeevani</title>
+        <title>CGHS Rates Explorer | Sanjevani</title>
       </Helmet>
       
       <Navbar 
@@ -202,12 +202,12 @@ export default function CghsRatesPage({
               <span className="text-white font-bold">S</span>
             </div>
             <div>
-              <p className="text-white font-bold">Sanjeevani</p>
+              <p className="text-white font-bold">Sanjevani</p>
               <p className="text-gray-500 text-xs">Medical Bill Transparency Initiative</p>
             </div>
           </div>
           <p className="text-gray-500 text-sm">
-            © 2024 Sanjeevani. Benchmarked against official CGHS data.
+            © 2024 Sanjevani. Benchmarked against official CGHS data.
           </p>
         </div>
       </footer>
